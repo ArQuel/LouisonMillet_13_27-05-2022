@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './components/navbar/navbar';
 import Hero from './components/hero/hero';
-import './App.css';
+import Features from './components/features/features';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
     <Navbar></Navbar>
     <main>
       <Hero></Hero>
+      <Features></Features>
     </main>
+    <Footer></Footer>
     </>
   );
 }
